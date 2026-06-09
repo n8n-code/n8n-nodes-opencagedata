@@ -3,14 +3,14 @@ import { NodeConnectionTypes, type INodeType, type INodeTypeDescription } from '
 
 export class Opencagedata implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'opencagedata',
+		displayName: 'Opencagedata',
 		name: 'N8nDevOpencagedata',
 		icon: { light: 'file:./opencagedata.png', dark: 'file:./opencagedata.dark.png' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: 'Worldwide forward and reverse geocoding',
-		defaults: { name: 'opencagedata' },
+		defaults: { name: 'Opencagedata' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

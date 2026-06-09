@@ -8,7 +8,7 @@ import type {
 export class OpencagedataApi implements ICredentialType {
 	name = 'N8nDevOpencagedataApi';
 
-	displayName = 'opencagedata API';
+	displayName = 'Opencagedata API';
 
 	icon: Icon = { light: 'file:../nodes/Opencagedata/opencagedata.png', dark: 'file:../nodes/Opencagedata/opencagedata.dark.png' };
 
@@ -22,7 +22,7 @@ export class OpencagedataApi implements ICredentialType {
 			default: '',
 			required: true,
 			placeholder: 'https://api.example.com',
-			description: 'The base URL of your opencagedata API server',
+			description: 'The base URL of your Opencagedata API server',
 		},
 		{
 			displayName: 'API Key',
